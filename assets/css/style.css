@@ -1,0 +1,14 @@
+body {margin: 0;}
+
+.navbar {
+    overflow: hidden;
+    background-color: #dddddd;
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+.about {
+    float: right;
+    
+}
