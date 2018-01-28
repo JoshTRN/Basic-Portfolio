@@ -53,15 +53,14 @@ h1 {
 
 .main {
     background-color: white;
-    border-radius: 5%;
     border: solid #cccccc;
-    max-width: 650px;
-    width: 100%;
+    width: 500px;
     height: auto;
     padding-left: 20px;
     margin-top: 100px;
+    margin-left: 0;
+    margin-right: 0;
     float: left;
-    margin-left: 50px;
 }
 
 footer {
@@ -82,13 +81,15 @@ h2 {
     border-bottom: 2px solid #cccccc;
     width: auto;
     padding: 10px;
+    margin-right: 10px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: 550;
 }
 
 .connectBox {
     width: 100%;
     max-width: 270px;
     height: 100%;
-    max-height: auto;
     text-align: center;
     border: 2px solid #cccccc;
     float: right;
@@ -96,9 +97,6 @@ h2 {
     background-color: white;
     padding: 10px;
     margin-top: 100px;
-    display: inline-block;
-    max-height: inherit;
-    position: relative;
     right: 0;
     margin-bottom: 60px;
 }
@@ -124,4 +122,9 @@ h2 {
     font-size: 16px;
     padding-left: 20px;
     position: relative;
-    right: 10px
+    right: 10px;
+}
+
+#whole {
+    width: 960px;
+}
