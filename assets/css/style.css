@@ -58,9 +58,10 @@ h1 {
     height: auto;
     padding-left: 20px;
     margin-top: 100px;
-    margin-left: 0;
+    margin-left: 50px;
     margin-right: 0;
     float: left;
+    margin-bottom: 100px;
 }
 
 footer {
@@ -128,3 +129,29 @@ h2 {
 #whole {
     width: 960px;
 }
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: lightgray;
+}
+
+.contactBox {
+    padding: 15px;
+}
+
+.submitButton {
+    background: #4aaaa5;
+    padding: 10px;
+    color: white;
+    margin-top: 10px;
+    border-top: 10px;
+    position: relative;
+
+}
+
